@@ -62,7 +62,7 @@ h1 {
 #container {
     height: 100vh;
     display: grid;
-    grid-template: 25% 1fr / 1.2fr 4fr;
+    grid-template: 25% 1fr / 1.13fr 4fr;
 }
 
 header {
