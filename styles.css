@@ -1,3 +1,10 @@
+/* TODO:
+adicionar animação e sombra no hover dos links da sidebar
+adicionar sombra no header
+adicionar sombra nos cards
+adicionar animação e sombra no hover dos botoes
+*/
+
 :root {
     --main-color: #3B82F6;
     --black: #434656;
@@ -11,52 +18,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-.icons {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 1.5rem;
-}
-
-li {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    cursor: pointer;
-    width: fit-content;
-}
-
-.icons img {
-    width: 4vh;
-    height: 4vh;
-}
-
-#sidebarHero img {
-    width: 9vh;
-    height: 9vh;
-}
-
-#sidebarHero {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 1em;
-}
-
-ul{
-    list-style: none;
-}
-
-a {
-    color: var(--white);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-h1 {
-    color: var(--white);
 }
 
 #container {
@@ -75,6 +36,62 @@ header {
     background-color: var(--main-color);
     grid-column: 1 / 2;
     grid-row: 1 / -1;
+}
+
+#sidebarHero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 0.8em;
+}
+
+#sidebarHero img {
+    width: 9vh;
+    height: 9vh;
+}
+
+#sidebarHero h1 {
+    padding-left: 0.5em;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 1.5rem;
+}
+
+.icons img {
+    width: 4vh;
+    height: 4vh;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+li a {
+    padding-left: 0.7em;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: var(--white);
 }
 
 main {
