@@ -13,6 +13,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.icons img {
+    width: 4vh;
+    height: 4vh;
+}
+
+#sidebarHero img {
+    width: 9vh;
+    height: 9vh;
+}
+
+ul{
+    list-style: none;
+}
+
 a {
     color: var(--white);
     text-decoration: none;
