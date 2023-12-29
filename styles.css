@@ -32,6 +32,24 @@ header {
     grid-row: 1 / 2;
 }
 
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#top div {
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom {
+    display: flex;
+}
+
+#bottom div {
+    display: flex;
+}
+
 #sidebar {
     background-color: var(--main-color);
     grid-column: 1 / 2;
