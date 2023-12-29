@@ -66,6 +66,7 @@ header {
 .icons img {
     width: 4vh;
     height: 4vh;
+    cursor: pointer;
 }
 
 ul{
