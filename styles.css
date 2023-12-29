@@ -13,6 +13,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: var(--white);
+}
+
 #container {
     height: 100vh;
     display: grid;
