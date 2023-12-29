@@ -45,7 +45,7 @@ header {
 #top div {
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
 }
 
 input {
@@ -57,6 +57,16 @@ input {
     outline: none;
 }
 
+#profileContainer {
+    display: flex;
+    padding: 0.7em 0 0 0;
+}
+
+#profilepictop {
+    width: 8vh;
+    height: 8vh;
+}
+
 #bottom {
     display: flex;
     justify-content: space-between;
@@ -66,6 +76,11 @@ input {
 #bottom div {
     display: flex;
     align-items: center;
+}
+
+#profilepicbottom {
+    width: 11vh;
+    height: 11vh;
 }
 
 #sidebar {
