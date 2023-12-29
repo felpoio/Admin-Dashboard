@@ -13,6 +13,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 1.5rem;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
 .icons img {
     width: 4vh;
     height: 4vh;
@@ -21,6 +36,13 @@ body {
 #sidebarHero img {
     width: 9vh;
     height: 9vh;
+}
+
+#sidebarHero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1em;
 }
 
 ul{
@@ -40,7 +62,7 @@ h1 {
 #container {
     height: 100vh;
     display: grid;
-    grid-template: 25% 1fr / 1fr 4fr;
+    grid-template: 25% 1fr / 1.2fr 4fr;
 }
 
 header {
