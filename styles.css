@@ -182,7 +182,7 @@ main {
     background-color: var(--grey);
     display: grid;
     grid-template-columns: 1fr 30%;
-    padding-top: 1em;
+    padding: 1em 0 2em 0;
 }
 
 #mainContent {
@@ -215,7 +215,7 @@ main {
     background-color: var(--dark-grey);
 }
 
-#announcements h1 {
+#announcements h1, #trending h1 {
     font-size: 1.5em;
     color: black;
 }
@@ -225,11 +225,45 @@ main {
     margin: 0;
 }
 
-#announcements div p {
+#announcements div p, #trending div p {
     color: var(--dark-grey);
     margin: 0;
 }
 
+#trending {
+    padding: 1em 1.7em 0 0;
+}
+
 #trending div {
     background-color: var(--white);
+    padding: 2em 1.5em;
+    border-radius: 0.7em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#trending div span img {
+    height: 8vh;
+    width: 8vh;
+}
+
+#trending div h2 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+#trending div span span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#trending div span {
+    display: flex;
+    column-gap: 17px;
+    cursor: pointer;
 }
