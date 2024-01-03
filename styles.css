@@ -61,6 +61,7 @@ input {
 #profileContainer {
     display: flex;
     padding: 0.7em 2em 0 0;
+    font-weight: bold;
 }
 
 #profilepictop {
@@ -95,6 +96,20 @@ input {
     width: 11vh;
     height: 11vh;
     margin: 0 1em 0 0;
+}
+
+#buttons {
+    gap: 30px;
+}
+
+#buttons button {
+    color: var(--white);
+    background-color: var(--main-color);
+    border: 0;
+    padding: 1em 2em;
+    border-radius: 2em;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 #sidebar {
