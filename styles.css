@@ -180,13 +180,13 @@ main {
     grid-row: 2 / -1;
     background-color: var(--grey);
     display: grid;
-    grid-template-columns: 1fr 25%;
-}
-
-#sideContent {
-    height: 1fr;
+    grid-template-columns: 1fr 30%;
 }
 
 #mainContent {
+    height: 1fr;
+}
+
+#sideContent {
     height: 1fr;
 }
