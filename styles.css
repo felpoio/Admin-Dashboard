@@ -18,6 +18,7 @@ adicionar animação e sombra no hover dos botoes
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 #container {
@@ -59,7 +60,7 @@ input {
 
 #profileContainer {
     display: flex;
-    padding: 0.7em 0 0 0;
+    padding: 0.7em 2em 0 0;
 }
 
 #profilepictop {
@@ -71,16 +72,29 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 1.5em;
 }
 
 #bottom div {
     display: flex;
     align-items: center;
+    font-weight: bold;
+}
+
+#small {
+    font-size: 0.9em;
+    margin: 0 0 0.5em 0;
+}
+
+#large {
+    font-size: 1.5em;
+    margin: 0;
 }
 
 #profilepicbottom {
     width: 11vh;
     height: 11vh;
+    margin: 0 1em 0 0;
 }
 
 #sidebar {
