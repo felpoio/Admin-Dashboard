@@ -9,6 +9,7 @@ adicionar animação e sombra no hover dos botoes
     --main-color: #3B82F6;
     --black: #434656;
     --grey: #E2E8F0;
+    --dark-grey: #8D8D8D;
     --white: #F6F9FF;
     --secundary-color-light: #EC486A;
     --secundary-color-dark: #AE003C;
@@ -181,6 +182,7 @@ main {
     background-color: var(--grey);
     display: grid;
     grid-template-columns: 1fr 30%;
+    padding-top: 1em;
 }
 
 #mainContent {
@@ -189,4 +191,45 @@ main {
 
 #sideContent {
     height: 1fr;
+}
+
+#announcements {
+    padding-right: 1.7em;
+}
+
+#announcements div {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 2.5em;
+    border-radius: 0.7em;
+}
+
+#announcements .divider {
+    height: 1px;
+    width: 100%;
+    padding: 0;
+    background-color: var(--dark-grey);
+}
+
+#announcements h1 {
+    font-size: 1.5em;
+    color: black;
+}
+
+#announcements div h1 {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+#announcements div p {
+    color: var(--dark-grey);
+    margin: 0;
+}
+
+#trending div {
+    background-color: var(--white);
 }
