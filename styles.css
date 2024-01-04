@@ -194,15 +194,33 @@ main {
 #main-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(4, 1fr);
     gap: 30px;
 }
 
 .card {
     background-color: var(--white);
     border-radius: 0.7em;
-    padding: 2em 1.5em;
+    padding: 2em 1.5em 1em 1.5em;
     cursor: pointer;
     box-shadow: inset 507px 0px 0px -500px var(--secundary-color-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 1rem;
+    padding-bottom: 0.7em;
+}
+
+.card-icons img {
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
 }
 
 #sideContent {
