@@ -208,7 +208,7 @@ main {
     border-radius: 0.7em;
     padding: 2em 1.5em 1em 1.5em;
     cursor: pointer;
-    box-shadow: inset 507px 0px 0px -500px var(--secundary-color-light);
+    box-shadow: inset 507px 0px 0px -500px var(--secundary-color-light), 8px 9px 11px -3px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -228,7 +228,7 @@ main {
     cursor: pointer;
 }
 
-.card, #announcements div, #trending div {
+#announcements div, #trending div {
     box-shadow: 8px 9px 11px -3px rgba(0,0,0,0.1);
 }
 
