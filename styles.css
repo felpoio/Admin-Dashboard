@@ -3,7 +3,6 @@ adicionar animação e sombra no hover dos links da sidebar
 adicionar sombra no header
 adicionar sombra nos cards
 adicionar animação e sombra no hover dos botoes
-adicionar cursor pointer no annoncements
 */
 
 :root {
@@ -114,6 +113,11 @@ input {
     cursor: pointer;
 }
 
+#buttons button:hover{
+    background-color: #0162ff;
+    transition: 100ms linear;
+}
+
 #sidebar {
     background-color: var(--main-color);
     grid-column: 1 / 2;
@@ -184,6 +188,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 30%;
     padding: 1em 0 2em 1em;
+    box-shadow: inset 0px 8px 11px -3px rgba(0,0,0,0.1);
 }
 
 #mainContent {
@@ -223,12 +228,17 @@ main {
     cursor: pointer;
 }
 
+.card, #announcements div, #trending div {
+    box-shadow: 8px 9px 11px -3px rgba(0,0,0,0.1);
+}
+
 #sideContent {
     height: 1fr;
 }
 
 #announcements {
     padding-right: 1.7em;
+    cursor: pointer;
 }
 
 #announcements div {
